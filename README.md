@@ -5,7 +5,9 @@
 
 ## Tính năng
 - Thêm, sửa, xóa công việc.
-![Image](https://github.com/user-attachments/assets/c02732e3-c922-4a4d-9015-e98e40426f73)
+<p align="center">
+  <img src="![Image](https://github.com/user-attachments/assets/c02732e3-c922-4a4d-9015-e98e40426f73)" width="280">
+</p>
   
 - Đánh dấu trạng thái hoàn thành công việc bằng checkbox.
 ![Image](https://github.com/user-attachments/assets/c07a1e60-6371-4cd9-b765-0209023185f6)
