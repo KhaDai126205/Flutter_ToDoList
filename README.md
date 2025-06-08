@@ -48,14 +48,6 @@
 
 ---
 
-## 🚀 Công nghệ sử dụng
-
-- Flutter
-- Dart
-- Material Design
-
----
-
 ## ✅ Công nghệ sử dụng
 - Flutter Framework
 
