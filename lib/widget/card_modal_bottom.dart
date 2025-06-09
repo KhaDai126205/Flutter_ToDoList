@@ -9,9 +9,14 @@ class ModalBottom extends StatelessWidget {
 
   String textValue = '';
 
-  void _handleOnClick() {
+  void _handleOnClick(BuildContext context) {
     final name = textController.text;
+    if (name.isEmpty) {
+      return;
+    }
     addTask(name);
+
+    Navigator.pop(context);
   }
 
   @override
@@ -40,7 +45,7 @@ class ModalBottom extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () => _handleOnClick(context),
                 child: const Text("Add Task"),
               ),
             ),
